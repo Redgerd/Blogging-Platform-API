@@ -1,0 +1,26 @@
+{
+  "name": "blogging-platform-api",
+  "version": "1.0.0",
+  "description": " a simple RESTful API with basic CRUD operations for a personal blogging platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redgerd/Blogging-Platform-API.git"
+  },
+  "author": "Salaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redgerd/Blogging-Platform-API/issues"
+  },
+  "homepage": "https://github.com/Redgerd/Blogging-Platform-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.5.3"
+  }
+}
